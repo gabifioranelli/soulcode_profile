@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap";
+
+:root {
+  --color-gray: #ffffff67;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #282a36;
+  font-family: 'Epilogue', sans-serif;
+  color: white;
+}
+
+#profile {
+  text-align: center;
+  padding: 20px 20px 15px;
+}
+
+#profile img {
+  border-radius: 50%;
+  border: 3px solid var(--color-gray);
+  margin-bottom: 32px;
+  height: 300px;
+}
+
+#profile h1 {
+  font-size: 32px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#profile p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 16px;
+}
